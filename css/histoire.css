@@ -4,7 +4,7 @@
 /*======================================*/
 
 header {
-    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486) ) ,url('../contenu/IA/AdobeStock_199085055.jpeg');
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.445) ) ,url('../contenu/IA/AdobeStock_199085055.jpeg');
     background-size: cover;
     background-position: right;
 }
@@ -90,7 +90,8 @@ header {
 
 @media screen and (max-width: 600px) {
 /*========== SECTION 1950 ==========*/
-
+/*==========POUR REMY ET YOHANN => MISE EN PAGE POUR MOBILE =========================*/
+/*===================================================================================*/
     .section-histoireIA__annes50-group {
         text-align: center;
     }
@@ -113,6 +114,7 @@ header {
         line-height: 24px;
         letter-spacing: 2px;
         margin: 30px 15px;
+        /*padding: 15px;*/
     }
 
 /*========== SECTION 1960 to 1980 ==========*/

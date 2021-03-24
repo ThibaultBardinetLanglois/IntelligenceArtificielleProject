@@ -33,12 +33,13 @@ header {
 .header__nav-top {
     width: 100%;
     height: 6rem;
-    background: rgba(255, 136, 56, 0.116);
+    background: rgba(255, 166, 0, 0.096);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
+    z-index: 999;
 }
 
 .fa-atom {
@@ -133,7 +134,7 @@ header {
     .header__nav-topRight {
         width: 320px;
         height: 45%;
-        background: rgba(255, 166, 0, 0.198);
+        background: rgba(255, 166, 0, 0.719);
         position: fixed;
         top: 0;
         right: -320px;
@@ -176,7 +177,7 @@ header {
         margin: 1.6rem 3px;
         letter-spacing: 1px;
         text-transform: uppercase;
-        color: #FF8838;
+        color: #fff;
         position: relative;
         padding-bottom: 6px;/*on peut mettre une petite marge et le a et son before grâce au padding*/
     }
@@ -281,12 +282,12 @@ header {
 /*=======================*/
 
 .header__nav-topRight {
-    width: 360px;
+    width: 320px;
     height: 50%;
-    background: rgba(255, 166, 0, 0.239);
+    background: rgba(255, 166, 0, 0.719);
     position: fixed;
     top: 0;
-    right: -360px;
+    right: -320px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -303,8 +304,8 @@ header {
 .nav-list {
     position: relative;
     top: 23%;
-    left: 8%;
-    width: 300px;
+    left: 15%;
+    width: 320px;
     min-height: 270px;
     text-align: left;
     display: flex;
@@ -313,12 +314,12 @@ header {
 }
 
 .header__nav-topRight a {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.4rem;
-    margin: 1.6rem 3px;
+    margin: 1.6rem 5px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: rgb(255, 166, 0);
+    color: #fff;
     padding-bottom: 6px;/*on peut mettre une petite marge et le a et son before grâce au padding*/
 }
 
