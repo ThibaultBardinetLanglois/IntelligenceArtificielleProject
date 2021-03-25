@@ -1,0 +1,357 @@
+/*================ GENERAL PRESETS ===============*/
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+header {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.404) ) ,url('../contenu/IA/AdobeStock_184811519.jpeg');
+    background-size: cover;
+    background-position: right;
+}
+.header__nav-top{
+    z-index: 999;
+}
+
+.header__title h1{
+    z-index: -1;
+}
+
+.Entreprise_block_Text,.block_text_jeux_vidéo{
+    background-color: rgba(255, 166, 0, 0.116);
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 30px;
+}
+
+.block_text_quotidien{
+    background-color: rgba(255, 136, 56, 0.116);
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 30px;
+
+}
+
+.img_entreprise{
+    background-image: url("../contenu/IA/robot_entreprise.jpg");
+    background-size: cover;
+
+}
+
+.img_quotidien{
+    background-image: url("../contenu/IA/alexa-4758340_1920.jpg");
+    background-size: cover;
+
+
+}
+.img_jeux_vidéo{
+    background-image: url("../contenu/IA/video-controller-336657_1920.jpg");
+    background-size: cover;
+
+}
+
+
+
+
+
+/*================ MOBILE PART ===============*/
+
+@media screen and (max-width: 600px){
+
+    h2{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 1.1rem;
+        line-height: 24px;  
+        letter-spacing: 2px;
+        word-spacing: 5px;
+  
+    }
+
+    .block{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 15px 30px 15px;
+        align-items: center;
+    }
+
+    /*================ ENTREPRISE MOBILE PART ===============*/
+
+    .entreprise{
+        margin-top: 30px;
+
+    }
+
+    .title_paragraphe_entreprise{
+        text-align: center;
+    }
+
+    .Entreprise_block_Text{
+        margin: 15px 0px 15px 0px ;
+    }
+    .img_entreprise{
+        width: 80%;
+        background-size: 100%;
+        height: 170px;
+        background-position-y: 100% ;
+    }
+
+
+
+    /*================ QUOTIDIEN MOBILE PART ===============*/
+    .quotidien{
+        margin-top: 30px;
+    }
+    .title_paragraphe_quotidien{
+        text-align: center;
+    }
+    .block_text_quotidien{
+     margin: 15px 0px 15px 0px ;
+
+    }
+    .img_quotidien{
+        width: 80%;
+        height: 200px;
+        order:3;
+    }
+
+
+    /*================ JV MOBILE PART ===============*/
+    .jeux_vidéo{
+        margin-top: 30px;
+    }
+    .title_paragraphe_jeux_vidéo{
+        text-align: center;
+    }
+    .block_text_jeux_vidéo{
+        margin: 15px 0px 15px 0px ;
+    }
+
+    .img_jeux_vidéo{
+        width: 80%;
+        height: 200px;
+    }
+
+
+
+}
+
+
+
+
+/*================ TABLET PART ===============*/
+
+@media screen and (min-width: 600px) and (max-width:1024px) {
+    h2{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 1.3rem;
+        line-height: 2rem;  
+        letter-spacing: 2px;
+        word-spacing: 5px;
+  
+    }
+
+    .block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px 30px 30px 30px;
+
+    }
+
+    .block h2{
+        margin-bottom: 15px;
+    }
+
+    /*================ ENTREPRISE TABLET PART ===============*/
+
+    .entreprise{
+        margin-top: 30px;
+    }
+
+    .title_paragraphe_entreprise{
+        text-align: center;
+    }
+
+    .img_entreprise{
+        width: 85%;
+        background-size: cover;
+        height: 300px;
+        background-position-y: 100% ;
+    }
+
+     /*================ QUOTIDIEN TABLET PART ===============*/
+     .title_paragraphe_quotidien{
+        text-align: center;
+    }
+    .img_quotidien{
+        width: 85%;
+        background-size: cover;
+        height: 300px;
+        background-position-y: 60% ;
+        order:3;
+    }
+
+    /*================ JV TABLET PART ===============*/
+    .jeux_vidéo{
+        margin-top: 30px;
+    }
+    .title_paragraphe_jeux_vidéo{
+        text-align: center;
+    }
+    .block_text_jeux_vidéo{
+        margin: 15px 0px 15px 0px ;
+    }
+
+    .img_jeux_vidéo{
+        width: 85%;
+        background-size: cover;
+        height: 300px;
+        margin-top: 15px;
+    }
+
+
+
+
+}
+
+/*================ PC PART ===============*/
+
+@media screen and (min-width: 1025px){
+
+    h2{
+        font-weight: 400;
+        font-size: 3rem;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 1.5rem;
+        line-height: 2.2rem;  
+        letter-spacing: 2px;
+        word-spacing: 5px;
+  
+    }
+
+    .block{
+        display: flex ;
+    }
+
+    /*================ ENTREPRISE PC PART ===============*/
+
+    .entreprise{
+        margin-top: 30px;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .title_paragraphe_entreprise{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: flex-start;
+        margin-left: 30px;
+        width: 55%;
+    }
+
+    .Entreprise_block_Text{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .img_entreprise{
+        width: 35%;
+        background-size: cover;
+        height: 300px;
+        background-position-y: 100% ;
+        margin-right: 30px;
+    }
+
+
+
+
+    /*================ QUOTIDIEN PC PART ===============*/
+
+
+    .quotidien{
+        margin-top: 30px;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .title_paragraphe_quotidien{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: flex-end;
+        margin-right: 30px;
+        width: 55%;
+    }
+
+    .block_text_quotidien{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .img_quotidien{
+        width: 35%;
+        background-size: cover;
+        height: 350px;
+        margin-left: 30px;
+    }
+
+
+
+     /*================ JV PC PART ===============*/
+
+     .jeux_vidéo{
+        margin-top: 30px;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .title_paragraphe_jeux_vidéo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: flex-start;
+        margin-left: 30px;
+        width: 55%;
+    }
+
+    .block_text_jeux_vidéo{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .img_jeux_vidéo{
+        width: 35%;
+        background-size: cover;
+        height: 300px;
+        margin-right: 30px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
