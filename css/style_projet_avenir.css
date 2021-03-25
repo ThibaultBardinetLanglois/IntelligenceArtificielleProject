@@ -1,0 +1,559 @@
+/*================ GENERAL PRESETS ===============*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+}
+
+
+
+p{
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2.2rem;  
+    letter-spacing: 2px;
+    word-spacing: 5px;
+
+}
+
+
+
+
+h2{
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin: 30px 0 30px 0;
+}
+
+header {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.329) ) ,url('../contenu/IA/1_afTS3knLUSHCJDirSOlq1g\ \(1\).jpeg');
+    background-size: cover;
+    background-position: right;
+}
+.header__nav-top{
+    z-index: 999;
+}
+
+.header__title h1{
+    z-index: -1;
+}
+
+
+
+
+
+
+
+/*========== CORPS DE PAGE ==========*/
+
+.block{
+    margin: 30px;
+    display: flex ;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+
+
+.block-Text{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+
+
+/*========== PARAGRAPHE TOP PART ==========*/
+
+.type_ia{
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+}
+
+.ANI-block-Text{
+    background-color: rgba(255, 166, 0, 0.116);
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 30px;
+}
+
+.AGI-block-Text{
+    background-color: rgba(255, 136, 56, 0.116);
+    border-radius: 20px;
+    padding: 1rem;
+    margin-bottom: 30px;
+
+
+}
+
+.ASI-block-Text{
+    background-color: rgba(255, 166, 0, 0.116);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+
+
+
+
+/*========== IMAGES TOP PART ==========*/
+
+
+
+.images_type_ia{
+    display: flex;
+    justify-content: space-around; 
+    width: 100%; 
+    padding: 15px;
+    margin-top: 30px; 
+}
+.text_presentation{
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    text-align: center;
+}
+.text_presentation p:first-child{
+    position: relative;
+    right: 15px;
+    
+}
+.text_presentation p:nth-child(2){
+    position: relative;
+    left: 55px;
+}
+.text_presentation p:last-child{
+    position: relative;
+    left: 80px;
+}
+
+
+.image_ia:first-child{
+    background-image: url("../contenu/IA/possessed-photography-zbLW0FG8XU8-unsplash.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.image_ia:nth-child(2) {
+    background-image: url("../contenu/IA/R2D2.jpg");
+    background-size: cover;
+    background-position: 60% 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.image_ia:nth-child(3){
+    background-image: url("../contenu/IA/Bender.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+/*========== REMPLACE PART ==========*/
+
+.remplace-block-Text{
+    background-color: rgba(255, 136, 56, 0.116);;
+    border-radius: 20px;
+    width: 60%;
+    padding: 1rem;
+    margin: 30px 30px 30px 30px;
+}
+
+
+.remplacera{
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.paragraphe_remplace h2{
+    margin-left: 30px;
+
+}
+
+.image_ia_remplace{
+    display: flex;
+    background-image: url("../contenu/IA/robot_piano.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    margin: 0px 30px 0px 30px;
+    background-position: 50% 25%;
+}
+
+/*========== SURPASSE PART ==========*/
+
+.surpassera{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_title_and_paragraphe_surpase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+}
+
+.image_ia_surpase{
+    background-image: url("../contenu/IA/Nasa.jpg");
+    background-size: cover;
+    width: 30%;
+    height: 400px;
+    margin: 0px 30px 0px 30px;
+    background-position: 50% 25%;
+}
+
+
+.surpase-block-Text{
+    background-color: rgba(255, 166, 0, 0.116);
+    border-radius: 20px;
+    width: 98%;
+    padding: 1rem;
+    margin: 15px 15px;
+
+}
+
+
+
+
+
+
+/*========== None in PC ==========*/
+
+.image_ia_mobile,.images_type_ia_mobile{
+    display: none;
+}
+
+
+
+
+/*========== Mobile Part ==========*/
+
+@media screen and (max-width: 600px){
+
+    .text_presentation{
+        display:none;
+    }
+
+    .block-Text{
+        font-size: 1.1rem;
+    }
+
+    h2{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 1.1rem;
+        line-height: 24px;  
+        letter-spacing: 2px;
+        word-spacing: 5px;
+  
+    }
+
+
+    /*========== TOP PART MOBILE ==========*/
+
+    .type_ia{
+        margin-top: -15px;
+    }
+
+    .paragraphe_type_ia{
+        width: 120%;
+    }
+
+    .paragraphe_type_ia p{
+        width: 98%;
+    }
+
+    .images_type_ia{
+        display: flex;
+        justify-content: center;
+    }
+    .image_ia:first-child,.image_ia:nth-child(2){
+        display: none;
+    }
+
+    .image_ia:first-child,.image_ia:nth-child(3){
+        margin-top: -15px;
+        margin-bottom: -15px;
+    }
+
+    .image_ia_mobile:first-child{
+        height: 200px;
+        width: 200px;
+
+    }
+
+    .images_type_ia_mobile{
+        display: flex;
+        width: 100%; 
+        justify-content: center;  
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .image_ia_mobile{
+        display: flex;
+        margin-bottom: -15px;
+    }
+
+    .block-Text-top{
+        width: 100%;
+
+    }
+
+
+
+
+    /*========== PARAGRAPHE REMPLACE PART MOBILE ==========*/
+
+
+    .remplace-block-Text,.surpase-block-Text{
+        border-radius: 20px;
+        padding: 1rem;
+        
+    }
+    .paragraphe_remplace{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;  
+
+    }
+    .paragraphe_remplace{
+        width: 100%;
+        margin: 0px;
+    }
+    .remplace-block-Text{
+        width: 100%;
+    }
+
+    
+
+    /*========== PARAGRAPHE SURPASSE PART MOBILE ==========*/
+
+    .surpassera{
+        display: flex;
+        padding: 0;
+        flex-direction:column;
+        text-align: center;
+        margin: 0px 30px 30px 30px;
+        width: 90%;
+    }
+
+
+ 
+
+    .block_title_and_paragraphe_surpase{
+        align-items: center;
+        width: 100%;
+        border: red solid 1px;
+        padding: 0px;
+    }
+
+    .block_title_and_paragraphe_surpase p{
+        margin:0;
+        width: 100%;
+    }
+
+
+
+  
+
+
+    /*========== IMAGES BOT PART MOBILE ==========*/
+
+    .block{
+        display:flex;
+        flex-direction: column;
+    }
+
+ 
+
+
+    .image_ia_remplace{
+        display: flex;
+        background-image: url("../contenu/IA/robot_piano.jpg");
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        background-position: 50% 25%;
+    }
+
+    .image_ia_surpase{
+        background-image: url("../contenu/IA/Nasa.jpg");
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+        margin: 15px 30px 30px 30px;
+        background-position: 50% 25%;
+        order: 3;
+       
+    }
+    
+
+
+
+
+}
+
+/*========== Tablet Part ==========*/
+
+@media screen and (min-width: 600px) and (max-width:1500px) {
+
+
+    .text_presentation{
+        display:none;
+    }
+
+    .block-Text{
+        font-size: 1.3rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 1.3rem;
+        line-height: 2rem;  
+        letter-spacing: 2px;
+        word-spacing: 5px;
+  
+    }
+
+        /*========== IMAGES TOP PART TABLET ==========*/
+
+    .images_type_ia{
+        display: flex;
+        justify-content: center;
+    }
+    .image_ia:first-child,.image_ia:nth-child(2){
+        display: none;
+    }
+
+    .image_ia:first-child,.image_ia:nth-child(3){
+        width: 37%;
+        height:200px;
+    }
+    .images-top{
+        border: brown solid 1px;
+        width: 37%;
+        height:200px;
+    }
+
+
+    .images_type_ia_mobile{
+        display: flex;
+        width: 100%; 
+        justify-content: center;  
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .image_ia_mobile{
+        display: flex;
+    }
+
+        /*==========  REMPLACE PART TABLET ==========*/
+        .remplacera{
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .remplace-block-Text{
+            background-color: rgba(255, 136, 56, 0.116);;
+            border-radius: 20px;
+            width: 95.5%;
+            padding: 1rem;
+            margin: 0px 15px 30px 15px;
+        }
+            
+
+        
+        .image_ia_remplace{
+            background-image: url("../contenu/IA/robot_piano.jpg");
+            background-size: cover;
+            width: 300px;
+            height:200px;
+            margin: 30px 30px 30px 30px;
+        }
+
+
+
+
+
+        /*==========  SURPASE PART TABLET ==========*/
+
+
+    
+        .surpassera{
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .block_title_and_paragraphe_surpase{
+            width: 100%;
+        }
+                 
+        .surpase-block-Text{
+            background-color: rgba(255, 166, 0, 0.116);
+            border-radius: 20px;
+            width: 95.5%;
+            padding: 1rem;
+            margin: 0px 15px 30px 15px;
+        }
+        
+        .image_ia_surpase{
+            background-image: url("../contenu/IA/Nasa.jpg");
+            background-size: cover;
+            width: 400px;
+            height: 200px;
+            margin: 0px 30px 30px 30px;
+            order: 2;
+        }
+        
+
+        
+        
+}
+
+
+
+@media screen and (min-width: 1025px) and (max-width:1600px){
+    h2{
+        font-weight: 400;
+        font-size: 3rem;
+    }
+
+    p{
+        font-weight: 300;
+        font-size: 1.5rem;
+        line-height: 2.2rem;  
+        letter-spacing: 2px;
+        word-spacing: 5px;
+  
+    }
+    
+
+}
+
+
