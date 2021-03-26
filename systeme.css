@@ -569,7 +569,7 @@ header {
 /* Bannière */
 header {
     
-    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.315), rgba(12, 12, 12, 0.295) ), url('images/AdobeStock_184811519.jpeg') ;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.315), rgba(12, 12, 12, 0.295) ), url('AdobeStock_184811519.jpeg') ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
